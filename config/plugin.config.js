@@ -11,6 +11,8 @@ const getAntdSerials = (color) => {
   return lightens.concat(colorPalettes).concat(rgb)
 }
 
+console.log(getAntdSerials('#1890ff'))
+
 const themePluginOption = {
   fileName: 'css/theme-colors-[contenthash:8].css',
   matchColors: getAntdSerials('#1890ff'), // 主色系列
